@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>CO2 Dashboard</title>
+</head>
+
+<body>
+
+    <nav>
+        <h3 style="font-weight: 100;">CO<sub>2</sub> Dashboard</h3>
+        <p>Explore CO<sub>2</sub> Emissions by year, current year: <span id="year">2001</span> <input type="range"></p>
+        <p id="emission-p">Choose between total emissions or emissions per capita.
+            <div id="radioB">
+                <input type="radio" id="totalE" name="totalE" value="totalE">
+                <label for="totalE">Emissions</label>
+                <input type="radio" id="EperC" name="EperC" value="EperC">
+                <label for="EperC">Emissions per Capita</label>
+            </div>
+        </p>
+        <p>Click on the country to see its trend by year.</p>
+    </nav>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #438a5e;
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+nav * {
+    margin-top: 10px;
+}
+
+#radioB,
+#radioB * {
+    margin-left: 5px;
+    display: inline;
+}
+
+#emission-p {
+    display: inline;
+}
+
+input[type="range"] {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10px;
+}
