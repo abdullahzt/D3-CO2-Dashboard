@@ -15,15 +15,20 @@
         <p>Explore CO<sub>2</sub> Emissions by year, current year: <span id="year">2001</span> <input type="range"></p>
         <p id="emission-p">Choose between total emissions or emissions per capita.
             <div id="radioB">
-                <input type="radio" id="totalE" name="totalE" value="totalE">
+                <input type="radio" id="totalE" name="emissionMode" value="totalE" checked="checked">
                 <label for="totalE">Emissions</label>
-                <input type="radio" id="EperC" name="EperC" value="EperC">
+                <input type="radio" id="EperC" name="emissionMode" value="EperC">
                 <label for="EperC">Emissions per Capita</label>
             </div>
         </p>
         <p>Click on the country to see its trend by year.</p>
     </nav>
 
+    <svg id="map"></svg>
+
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
